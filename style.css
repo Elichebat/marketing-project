@@ -1,0 +1,175 @@
+.main{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+
+.hight{
+    display: inline-flex;
+    flex-direction:row ;
+    
+    gap: 28px;
+}
+.hight h2 {
+    padding: 0px;
+    margin-bottom: 25px;
+    margin: 10px;
+    margin-right: 150px;
+}
+.hight p:last-child{
+
+    margin-left: 200px;
+}
+i{
+   margin:20px;
+}
+.special{
+    display: flex;
+}
+
+.special p {
+margin-top: 100px;
+font-family: Arial, sans-serif,sans-serif ;
+font-size: 50px;
+}
+.place{
+    margin-bottom: 00px;
+}
+.images{
+display: flex;
+flex-direction: column;
+margin: 0%;
+}
+.images p{
+    margin-right:200px;
+    text-align: center;
+}
+.body input{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius:2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.jeune{
+    display: flex;}
+#cool{
+    background-color: black;
+    width: 100% ;
+    height: 100px;
+     position: relative;
+}
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color:black;
+
+}     
+    hr{
+        width: 40px;
+        height: 0px;
+        margin-left: 00px;
+    }
+    .pop{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+    }
+    .pop p{
+        margin-right:89%;
+    }
+    .popular input{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+    }
+    .popular input{
+        display: flex;
+    }
+
+    .log{
+        display: flex;
+        width: 100%;
+    
+    }
+   portrait {
+    background-color:blue;
+    width: 20%;
+    height: 100px;
+    border-radius:10px ;
+    position: relative;
+   }  
+   .portrait img {
+    position: absolute;
+    right: 50px;
+    left: 90px;
+    top: 0;
+    bottom:30px;
+    transform: translate(-50%);
+    width: 300px;
+    height: 300px;
+   }
+   .portrait p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 180px;
+   }
+   .log{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+
+   }
+   .log i {
+    position: absolute;
+    top: 140px;
+    left: 200px;
+   }
+   .log i :last-child{
+    position: absolute;
+    top: 140px;
+    right: 200px;
+   }
+
+   .global{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+   }
+   .global i{
+     position: absolute;
+    top: 140px;
+    right: 200px;
+   }
+   .chevron{
+    display: flex;
+    flex-direction: column;
+
+    bottom: 10px;
+   }
+   
+
+
+
+
+
+
+
+
